@@ -1,0 +1,4 @@
+﻿person, human, people
+dog, pet, animal
+dining table, food, eating
+ 
