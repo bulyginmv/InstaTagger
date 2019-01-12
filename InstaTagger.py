@@ -13,7 +13,7 @@ import augmentation as au
 from PIL import Image
 
 sys.path.append("..")
-from object_detection.utils import ops as utils_ops
+from InstaTagger.utils import ops as utils_ops
 
 if StrictVersion(tf.__version__) < StrictVersion('1.9.0'):
   raise ImportError('Please upgrade your TensorFlow installation to v1.9.* or later!')
@@ -22,7 +22,7 @@ if StrictVersion(tf.__version__) < StrictVersion('1.9.0'):
 
 
 
-from object_detection.utils import label_map_util
+from InstaTagger.utils import label_map_util
 
 
 
