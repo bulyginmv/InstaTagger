@@ -6,7 +6,7 @@ Created on Wed Dec 12 18:51:47 2018
 """
 
 import numpy as np
-file=open('C:/python/thesaurus.txt', 'r',encoding='utf-8-sig')
+file=open('thesaurus.txt', 'r',encoding='utf-8-sig')
 file=file.read()
 lines=file.split('\n')
 thesaurus=[]
